@@ -32,12 +32,13 @@ All sensitive information such as database credentials is stored securely using 
 ## Setup Instructions
 
 1. Clone the Repository:
-
+``` bash
 git clone https://github.com/danishskh70/StudentManagementSystem.git
 cd StudentManagementSystem
-
+```
 2. Install MySQL and create the database and table:
 
+``` bash
 CREATE DATABASE studentdb;
 USE studentdb;
 
@@ -48,18 +49,23 @@ CREATE TABLE students (
     email VARCHAR(50),
     course VARCHAR(50)
 );
+```
 
 3. Set Environment Variables for database credentials:
 
+``` bash
 set DB_URL=jdbc:mysql://localhost:3307/studentdb
 set DB_USER=root
 set DB_PASS=your_password_here
+```
 
 4. Compile and Run the Program:
 
+``` bash
 javac -cp lib\mysql-connector-j-9.5.0.jar src\*.java
 java -cp lib\mysql-connector-j-9.5.0.jar;src Main
 
+```
 ---
 
 ## Usage
