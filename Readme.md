@@ -33,7 +33,7 @@ All sensitive information such as database credentials is stored securely using 
 
 1. Clone the Repository:
 
-git clone https://github.com/yourusername/StudentManagementSystem.git
+git clone https://github.com/danishskh70/StudentManagementSystem.git
 cd StudentManagementSystem
 
 2. Install MySQL and create the database and table:
